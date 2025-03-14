@@ -100,11 +100,25 @@ if (place_meeting(x,y+vsp,obj_Respawn_Plane))
 	room_goto(rm_center)
 }
 
+// The Hook variables
+
+hooklife += 1;
+
 // Grappling Hook System (WIP)
 
 if(mouse_check_button_pressed(1))
 {
+	hooklife = 0;
 	instance_destroy(obj_Hook);
 	var inst = instance_create_layer(x,y, "Instances", obj_Hook);
 	inst.direction = point_direction(x,y, mouse_x, mouse_y);
+}
+
+if(instance_exists(obj_Hook))
+{
+	if(obj_Hook.speed == 0)
+	{
+		x += (obj_Hook.x - x) * 0.1;
+		y += (obj_Hook.y - y) * 0.1;
+	}
 }

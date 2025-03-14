@@ -4,4 +4,5 @@ hsp = 0;
 vsp = 0;
 grv = 0.3;
 walksp = 4;
-jumpsp = 12.5;
+jumpsp = 8;
+hooklife = 0;
