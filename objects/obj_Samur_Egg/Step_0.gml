@@ -13,7 +13,7 @@ hsp = _move * walksp;
 
 vsp = vsp + grv;
 
-if (place_meeting(x,y+1,obj_Invisible_Wall)) && (key_jump)
+if ((place_meeting(x,y+1,obj_Invisible_Wall)) && (key_jump))
 {
 	vsp = -jumpsp	
 }
@@ -109,6 +109,7 @@ hooklife += 1;
 if(mouse_check_button_pressed(1))
 {
 	hooklife = 0;
+	if(vsp > 5) vsp = -5;
 	instance_destroy(obj_Hook);
 	var inst = instance_create_layer(x,y, "Instances", obj_Hook);
 	inst.direction = point_direction(x,y, mouse_x, mouse_y);
@@ -118,7 +119,17 @@ if(instance_exists(obj_Hook))
 {
 	if(obj_Hook.speed == 0)
 	{
+		if(place_free(x,y) && place_free(x,y-32))
+		{
 		x += (obj_Hook.x - x) * 0.1;
 		y += (obj_Hook.y - y) * 0.1;
+		}
+		if(key_jump)
+		{
+			instance_destroy(obj_Hook);
+			vsp = -jumpsp;
+		}
+		
 	}
+	
 }

@@ -26,7 +26,7 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":false,
+  "solid":true,
   "spriteId":{
     "name":"spr_Invisible_Wall",
     "path":"sprites/spr_Invisible_Wall/spr_Invisible_Wall.yy",
