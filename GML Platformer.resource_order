@@ -2,6 +2,7 @@
   "FolderOrderSettings":[],
   "ResourceOrderSettings":[
     {"name":"obj_Background_Rock","order":6,"path":"objects/obj_Background_Rock/obj_Background_Rock.yy",},
+    {"name":"obj_Coin","order":10,"path":"objects/obj_Coin/obj_Coin.yy",},
     {"name":"obj_Hook","order":9,"path":"objects/obj_Hook/obj_Hook.yy",},
     {"name":"obj_Invisible_Wall","order":1,"path":"objects/obj_Invisible_Wall/obj_Invisible_Wall.yy",},
     {"name":"obj_Respawn_Plane","order":8,"path":"objects/obj_Respawn_Plane/obj_Respawn_Plane.yy",},
@@ -9,6 +10,7 @@
     {"name":"obj_Room_Center_Enter_Right","order":5,"path":"objects/obj_Room_Center_Enter_Right/obj_Room_Center_Enter_Right.yy",},
     {"name":"obj_Room_Left","order":3,"path":"objects/obj_Room_Left/obj_Room_Left.yy",},
     {"name":"obj_Room_Right","order":2,"path":"objects/obj_Room_Right/obj_Room_Right.yy",},
+    {"name":"obj_Score_Display","order":11,"path":"objects/obj_Score_Display/obj_Score_Display.yy",},
     {"name":"obj_Suspicious_Looking_Rock","order":7,"path":"objects/obj_Suspicious_Looking_Rock/obj_Suspicious_Looking_Rock.yy",},
     {"name":"rm_center_enter_left","order":3,"path":"rooms/rm_center_enter_left/rm_center_enter_left.yy",},
     {"name":"rm_center_enter_right","order":4,"path":"rooms/rm_center_enter_right/rm_center_enter_right.yy",},
@@ -28,6 +30,7 @@
     {"name":"spr_Samur_Egg_Jump","order":3,"path":"sprites/spr_Samur_Egg_Jump/spr_Samur_Egg_Jump.yy",},
     {"name":"spr_Samur_Egg_Run","order":1,"path":"sprites/spr_Samur_Egg_Run/spr_Samur_Egg_Run.yy",},
     {"name":"spr_Suspicious_Looking_Rock","order":13,"path":"sprites/spr_Suspicious_Looking_Rock/spr_Suspicious_Looking_Rock.yy",},
+    {"name":"spr_Trinket_Coin","order":16,"path":"sprites/spr_Trinket_Coin/spr_Trinket_Coin.yy",},
     {"name":"spr_Walls","order":5,"path":"sprites/spr_Walls/spr_Walls.yy",},
   ],
 }

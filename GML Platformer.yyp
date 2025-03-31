@@ -34,6 +34,7 @@
   "name":"GML Platformer",
   "resources":[
     {"id":{"name":"obj_Background_Rock","path":"objects/obj_Background_Rock/obj_Background_Rock.yy",},},
+    {"id":{"name":"obj_Coin","path":"objects/obj_Coin/obj_Coin.yy",},},
     {"id":{"name":"obj_Hook","path":"objects/obj_Hook/obj_Hook.yy",},},
     {"id":{"name":"obj_Invisible_Wall","path":"objects/obj_Invisible_Wall/obj_Invisible_Wall.yy",},},
     {"id":{"name":"obj_Respawn_Plane","path":"objects/obj_Respawn_Plane/obj_Respawn_Plane.yy",},},
@@ -42,6 +43,7 @@
     {"id":{"name":"obj_Room_Left","path":"objects/obj_Room_Left/obj_Room_Left.yy",},},
     {"id":{"name":"obj_Room_Right","path":"objects/obj_Room_Right/obj_Room_Right.yy",},},
     {"id":{"name":"obj_Samur_Egg","path":"objects/obj_Samur_Egg/obj_Samur_Egg.yy",},},
+    {"id":{"name":"obj_Score_Display","path":"objects/obj_Score_Display/obj_Score_Display.yy",},},
     {"id":{"name":"obj_Suspicious_Looking_Rock","path":"objects/obj_Suspicious_Looking_Rock/obj_Suspicious_Looking_Rock.yy",},},
     {"id":{"name":"rm_center_enter_left","path":"rooms/rm_center_enter_left/rm_center_enter_left.yy",},},
     {"id":{"name":"rm_center_enter_right","path":"rooms/rm_center_enter_right/rm_center_enter_right.yy",},},
@@ -63,6 +65,7 @@
     {"id":{"name":"spr_Samur_Egg_Run","path":"sprites/spr_Samur_Egg_Run/spr_Samur_Egg_Run.yy",},},
     {"id":{"name":"spr_Samur_Egg_Walk","path":"sprites/spr_Samur_Egg_Walk/spr_Samur_Egg_Walk.yy",},},
     {"id":{"name":"spr_Suspicious_Looking_Rock","path":"sprites/spr_Suspicious_Looking_Rock/spr_Suspicious_Looking_Rock.yy",},},
+    {"id":{"name":"spr_Trinket_Coin","path":"sprites/spr_Trinket_Coin/spr_Trinket_Coin.yy",},},
     {"id":{"name":"spr_Walls","path":"sprites/spr_Walls/spr_Walls.yy",},},
     {"id":{"name":"ts_Walls","path":"tilesets/ts_Walls/ts_Walls.yy",},},
   ],
