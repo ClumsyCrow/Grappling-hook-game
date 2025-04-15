@@ -2,7 +2,7 @@
 if(hooklife > 25)
 {
 	instance_destroy(obj_Hook);
-	if(!instance_exists(obj_Hook)){
+	if(key_sprint){
 		vsp = -10;
 	}
 }

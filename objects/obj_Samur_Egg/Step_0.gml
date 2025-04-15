@@ -104,7 +104,7 @@ if (place_meeting(x,y+vsp,obj_Respawn_Plane))
 
 hooklife += 1;
 
-// Grappling Hook System (WIP)
+// Grappling Hook System
 
 if(mouse_check_button_pressed(1))
 {
@@ -127,9 +127,11 @@ if(instance_exists(obj_Hook))
 		if(key_jump)
 		{
 			instance_destroy(obj_Hook);
-			vsp = -jumpsp;
+			if(key_sprint) vsp = -jumpsp;
 		}
 		
 	}
 	
 }
+
+
