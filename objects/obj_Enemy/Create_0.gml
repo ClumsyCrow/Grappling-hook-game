@@ -1,0 +1,2 @@
+image_speed = 0.5;
+path_start(pth_Enemy, 5, path_action_continue, true);

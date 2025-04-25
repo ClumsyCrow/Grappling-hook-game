@@ -35,6 +35,7 @@
   "resources":[
     {"id":{"name":"obj_Background_Rock","path":"objects/obj_Background_Rock/obj_Background_Rock.yy",},},
     {"id":{"name":"obj_Coin","path":"objects/obj_Coin/obj_Coin.yy",},},
+    {"id":{"name":"obj_Enemy","path":"objects/obj_Enemy/obj_Enemy.yy",},},
     {"id":{"name":"obj_Hook","path":"objects/obj_Hook/obj_Hook.yy",},},
     {"id":{"name":"obj_Invisible_Wall","path":"objects/obj_Invisible_Wall/obj_Invisible_Wall.yy",},},
     {"id":{"name":"obj_Respawn_Plane","path":"objects/obj_Respawn_Plane/obj_Respawn_Plane.yy",},},
@@ -44,6 +45,7 @@
     {"id":{"name":"obj_Room_Right","path":"objects/obj_Room_Right/obj_Room_Right.yy",},},
     {"id":{"name":"obj_Samur_Egg","path":"objects/obj_Samur_Egg/obj_Samur_Egg.yy",},},
     {"id":{"name":"obj_Suspicious_Looking_Rock","path":"objects/obj_Suspicious_Looking_Rock/obj_Suspicious_Looking_Rock.yy",},},
+    {"id":{"name":"pth_Enemy","path":"paths/pth_Enemy/pth_Enemy.yy",},},
     {"id":{"name":"rm_center_enter_left","path":"rooms/rm_center_enter_left/rm_center_enter_left.yy",},},
     {"id":{"name":"rm_center_enter_right","path":"rooms/rm_center_enter_right/rm_center_enter_right.yy",},},
     {"id":{"name":"rm_center","path":"rooms/rm_center/rm_center.yy",},},
@@ -53,6 +55,7 @@
     {"id":{"name":"spr_Background_Rock","path":"sprites/spr_Background_Rock/spr_Background_Rock.yy",},},
     {"id":{"name":"spr_Background","path":"sprites/spr_Background/spr_Background.yy",},},
     {"id":{"name":"spr_Clouds","path":"sprites/spr_Clouds/spr_Clouds.yy",},},
+    {"id":{"name":"spr_Enemy","path":"sprites/spr_Enemy/spr_Enemy.yy",},},
     {"id":{"name":"spr_Grain","path":"sprites/spr_Grain/spr_Grain.yy",},},
     {"id":{"name":"spr_Hook","path":"sprites/spr_Hook/spr_Hook.yy",},},
     {"id":{"name":"spr_Invisible_Wall","path":"sprites/spr_Invisible_Wall/spr_Invisible_Wall.yy",},},
