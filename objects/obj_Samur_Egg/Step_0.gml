@@ -106,6 +106,7 @@ if(mouse_check_button_pressed(1))
 {
 	hooklife = 0;
 	if(vsp > 5) vsp = -5;
+	audio_play_sound(snd_Hook_Throw, 1, false);
 	instance_destroy(obj_Hook);
 	var inst = instance_create_layer(x,y, "Instances", obj_Hook);
 	inst.direction = point_direction(x,y, mouse_x, mouse_y);

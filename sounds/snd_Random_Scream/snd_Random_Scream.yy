@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"snd_Random_Scream",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":0.56551,
+  "name":"snd_Random_Scream",
+  "parent":{
+    "name":"Sounds",
+    "path":"folders/Sounds.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_Random_Scream.wav",
+  "type":0,
+  "volume":1.0,
+}
