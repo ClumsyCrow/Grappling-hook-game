@@ -22,6 +22,7 @@
     {"name":"spr_Background_Rock","order":12,"path":"sprites/spr_Background_Rock/spr_Background_Rock.yy",},
     {"name":"spr_Background","order":8,"path":"sprites/spr_Background/spr_Background.yy",},
     {"name":"spr_Clouds","order":6,"path":"sprites/spr_Clouds/spr_Clouds.yy",},
+    {"name":"spr_Dead_Shell","order":18,"path":"sprites/spr_Dead_Shell/spr_Dead_Shell.yy",},
     {"name":"spr_Enemy","order":17,"path":"sprites/spr_Enemy/spr_Enemy.yy",},
     {"name":"spr_Grain","order":7,"path":"sprites/spr_Grain/spr_Grain.yy",},
     {"name":"spr_Hook","order":15,"path":"sprites/spr_Hook/spr_Hook.yy",},
