@@ -20,10 +20,14 @@ global.ptChip = prtChip;
 var prtShell = part_type_create();
 
 part_type_sprite(prtShell, spr_Dead_Shell, false, false, false);
-part_type_life(prtShell, 20, 20);
+part_type_life(prtShell, 100, 100);
+
+part_type_size(prtShell, 1.5, 1.5, 0, 0);
+part_type_orientation(prtShell, 0, 360, 1, 0, false);
 
 part_type_speed(prtShell, 4, 5, 0, 0);
 part_type_direction(prtShell, 0, 180, 0, 0);
+part_type_gravity(prtShell, 0.2, 270);
 
 global.ptShell = prtShell;
 #endregion

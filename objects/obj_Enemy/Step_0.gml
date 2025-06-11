@@ -13,7 +13,6 @@ else {
 	image_speed = 0.5;
 	path_speed = 2;
 	if (place_meeting(x, y, obj_Samur_Egg)) {
-		audio_play_sound(snd_Random_Scream, 1, false);
 		instance_destroy(obj_Samur_Egg);
 		}
 	}
